@@ -14,7 +14,7 @@ int main()
     cout << strlen(name1) << " letters and is stored\n";       
     //strlen()函数输出字符串长度
     cout << "in an array of " << sizeof(name1) << " bytes.\n"; 
-    //并非sizeof()函数输出的数组长度
+    //sizeof()函数输出数组长度
     cout << "Your initial is " << name1[0] << name1[1] << ".\n";//字符串常量自动拼接
     name2[3] = '\0';                // 替换为空字符
     cout << "Here are the first 3 characters of my name: ";
